@@ -5,6 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Courses from "./components/Courses";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
 
 function App() {
@@ -16,6 +20,8 @@ function App() {
                 <Routes>
                     <Route exact path='/' element={<Home/>}/>
                     <Route exact path='/courses' element={<Courses/>}/>
+                    <Route exact path='/about' element={<About/>}/>
+                    <Route exact path='/contact' element={<Contact/>}/>
                 </Routes>
             </div>
         </Router>
