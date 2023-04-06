@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem 7%;
+    line-height: 1.5;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.about h3{
+    font-size: 1.375rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.about h1{
+    font-size: 2.4375rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5rem;
+    margin-top: 1.5rem;
+}
+
+.about__content-container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.about__content-container img{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.about__content-container p{
+    width: 60%;
+    font-size: 1.2rem;
+    text-align: justify;
+    align-self: flex-start;
+}
+
+.about__content-offering{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.about__content-offering p{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.about__content-offering-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1.5rem;
+}
+.about__content-offering-container-item {
+    flex: 1;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about__content-offering-container-item h3{
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1rem;
+    display: inline-block;
+    font-weight: 400;
+    background-color: #37d4d7;
+}
+
+.about__content-offering-container-item p{
+    font-size: 1rem;
+    width: 100%;
+    font-weight: 300;
+    background-color: white;
+    text-align: center;
+    flex: 1;
+    padding: 7% 7%;
+}
+
+@media screen and (max-width: 1100px){
+    .about h1,h3{
+        text-align: center;
+    }
+    .about__content-container{
+        flex-direction: column;
+    }
+    .about__content-container img{
+        max-width: 100%;
+        max-height: 100%;
+        order: 1;
+    }
+    .about__content-container p{
+        width: 100%;
+        order: 0;
+    }
+    .about__content-offering-container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .about h1,h3{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .about__content-offering-container-item h3{
+        font-size: 1rem;
+    }
+    .about__content-offering-container-item p{
+        font-size: 0.8rem;
+    }
+}
