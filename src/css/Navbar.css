@@ -10,16 +10,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0.8rem 3rem;
   font-size: 1.1rem;
   align-items: stretch;
-  width: 80%;
-  margin: 0 auto;
+}
+
+.nav-logo {
+  width: 90%;
 }
 
 .nav-left {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   justify-content: flex-start;
 }
@@ -37,12 +39,12 @@
   display: flex;
 }
 
-.nav a {
+.nav-links a {
   text-decoration: none;
   color: inherit;
   text-transform: uppercase;
   height: 100%;
-  padding: 1.4rem 1rem;
+  padding: 1.2rem 1rem;
   display: flex;
   align-items: center;
 }
@@ -64,22 +66,22 @@
 
 .nav-log-in-button {
   background-color: white;
-  color: #0b005d;
-  border: 2px solid #0b005d;
+  color: #040146;
+  border: 2px solid #040146;
 }
 
 .nav-log-in-button:hover {
-  background-color: #0b005d;
+  background-color: #040146;
   color: white;
 }
 
 .nav-sign-in-button {
-  background-color: #0b005d;
+  background-color: #040146;
   color: white;
 }
 
 .nav-sign-in-button:hover {
   background-color: white;
-  color: #0b005d;
-  border: 2px solid #0b005d;
+  color: #040146;
+  border: 2px solid #040146;
 }
