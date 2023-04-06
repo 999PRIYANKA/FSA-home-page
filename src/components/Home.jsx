@@ -34,25 +34,25 @@ const Home = () => {
             title="Campus recruitment training"
             desc="It's 2023. Deliver the learning experience your team deserves. And
             have a good time doing it."
-            img="https://as2.ftcdn.net/v2/jpg/04/41/98/07/1000_F_441980769_s5CbR4NGlv9aT9MbacDGvlpLAFbynfya.jpg"
+            img="./images/recruitment-training.png"
           />
           <Slide
             title="IT training"
             desc="It's 2023. Deliver the learning experience your team deserves. And
             have a good time doing it."
-            img="https://as2.ftcdn.net/v2/jpg/04/41/98/07/1000_F_441980769_s5CbR4NGlv9aT9MbacDGvlpLAFbynfya.jpg"
+            img="./images/it-training.png"
           />
           <Slide
             title="Soft Skill Development Training"
             desc="It's 2023. Deliver the learning experience your team deserves. And
             have a good time doing it."
-            img="https://as2.ftcdn.net/v2/jpg/04/41/98/07/1000_F_441980769_s5CbR4NGlv9aT9MbacDGvlpLAFbynfya.jpg"
+            img="./images/soft-skills.png"
           />
           <Slide
             title="IT Project"
             desc="It's 2023. Deliver the learning experience your team deserves. And
             have a good time doing it."
-            img="https://as2.ftcdn.net/v2/jpg/04/41/98/07/1000_F_441980769_s5CbR4NGlv9aT9MbacDGvlpLAFbynfya.jpg"
+            img="./images/mock-interview.png"
           />
         </Slider>
         <div className="home-buttons">
@@ -84,7 +84,9 @@ const Slide = ({ title, desc, img }) => {
           <p>{desc}</p>
         </div>
       </div>
-      <img className="home-slider-image" src={img} alt="" />
+      <div className="home-slider-image-container">
+        <img className="home-slider-image" src={img} alt="" />
+      </div>
     </div>
   );
 };
