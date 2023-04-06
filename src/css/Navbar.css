@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  font-size: 1.1rem;
+  align-items: stretch;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-left {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-hr {
+  width: 1px;
+  height: 90%;
+  background-color: black;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  height: 100%;
+  padding: 1.4rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-button {
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-log-in-button {
+  background-color: white;
+  color: #0b005d;
+  border: 2px solid #0b005d;
+}
+
+.nav-log-in-button:hover {
+  background-color: #0b005d;
+  color: white;
+}
+
+.nav-sign-in-button {
+  background-color: #0b005d;
+  color: white;
+}
+
+.nav-sign-in-button:hover {
+  background-color: white;
+  color: #0b005d;
+  border: 2px solid #0b005d;
+}
