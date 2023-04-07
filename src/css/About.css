@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
 .about{
     display: flex;
     flex-direction: column;
@@ -72,9 +71,12 @@
 .about__content-offering-container-item {
     flex: 1;
     height: inherit;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0;
+    justify-content: center;
 }
 .about__content-offering-container-item h3{
     width: 100%;
