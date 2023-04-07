@@ -28,10 +28,10 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Java</h2>
                         <p class="card-text">
-                          Core Java <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
-                          Data structure with java <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
-                          adavanced Java <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
-                          java develop <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
+                          Core Java <NavLink to ="https://www.firststepahead.in/courses/core-java.pdf" attributes-list download > Download </NavLink>  <br></br>
+                          Data structure with java <NavLink to ="https://www.firststepahead.in/courses/advance-java.pdf" attributes-list download > Download </NavLink> <br></br>
+                          adavanced Java <NavLink to ="https://www.firststepahead.in/courses/data-structure-with-java.pdf" attributes-list download > Download </NavLink> <br></br>
+                          java develop <NavLink to ="https://www.firststepahead.in/courses/java-development.pdf" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>
                     </div>
@@ -42,7 +42,7 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Data Structures and Algorithms with Python</h2>
                         <p class="card-text">
-                         Data Structures with Python <NavLink to ="Document URL" attributes-list download > Download </NavLink>  
+                         Data Structures with Python <NavLink to ="https://www.firststepahead.in/courses/data-structure-with-python.pdf" attributes-list download > Download </NavLink>  
                         </p>
                       </div>
                     </div>
@@ -53,8 +53,8 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>C,C++ Programming</h2>
                         <p class="card-text">
-                          C,C++Programming <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
-                          Data Structures with C <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                          C,C++Programming <NavLink to ="https://www.firststepahead.in/courses/c-cpp-course.pdf" attributes-list download > Download </NavLink>  <br></br>
+                          Data Structures with C <NavLink to ="https://www.firststepahead.in/courses/data-structure-with-c.pdf" attributes-list download > Download </NavLink>  <br></br>
                         </p>
                       </div>
                     </div>
@@ -68,8 +68,8 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Full Stack Course</h2>
                         <p class="card-text">
-                          Java Full Stack Course <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
-                        Full Stack development Django <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
+                          Java Full Stack Course <NavLink to ="firststepahead.in/courses/java-full-stack-development.pdf" attributes-list download > Download </NavLink>  <br></br>
+                        Full Stack development Django <NavLink to ="https://www.firststepahead.in/courses/full-stack-development-django.pdf" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>
                     </div>
@@ -80,7 +80,7 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Emerging Technology</h2>
                         <p class="card-text">
-                          Machine learning with Python <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                          Machine learning with Python <NavLink to ="https://www.firststepahead.in/courses/machine-learning-with-python.pdf" attributes-list download > Download </NavLink>  <br></br>
                           Data Science with Python <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
                         </p>
                       </div>
@@ -92,7 +92,7 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Campus Recruitment</h2>
                         <p class="card-text">
-                        <NavLink to ="Document URL" attributes-list download > Download Syllabus </NavLink>  
+                        <NavLink to ="https://www.firststepahead.in/courses/campus-training.pdf" attributes-list download > Download Syllabus </NavLink>  
                         </p>
                       </div>
                     </div>
