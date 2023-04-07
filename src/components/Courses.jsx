@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { NavLink } from "react-router-dom";
 import { Container, Row, Tabs, Tab } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
