@@ -7,36 +7,56 @@
 .home {
   background-color: #f2f2f2;
   height: 100vh;
-}
-
-.home-slider {
-  padding: 3rem;
-  display: flex;
-  justify-content: space-between;
-  z-index: -100;
-}
-
-.home-slider-left {
-  display: flex;
-  position: relative;
-}
-
-.home-slider-social-bar {
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  margin-right: 1rem;
-  position: absolute;
-  left: 20px;
-  top: 25px;
-  z-index: 100;
+  margin-top: 4rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .home-main {
-  position: relative;
+  display: flex;
+  padding: 3rem 2rem 3rem 2rem;
+  align-items: center;
 }
 
-.home-slider-social-icon {
+.home-main-section {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+}
+
+.home-slide {
+  display: flex;
+  justify-content: space-between;
+  z-index: -1000;
+}
+
+.home-slide-left {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  gap: 2rem;
+  flex-direction: column;
+  z-index: -1000;
+}
+
+.home-slide-left h1 {
+  font-size: 3rem;
+  color: #3e42c1;
+}
+
+.home-slide-left p {
+  font-size: 1.4rem;
+  color: #3e42c1;
+}
+
+.home-slide-social-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-right: 2rem;
+  z-index: 100;
+}
+
+.home-slide-social-icon {
   border: 1px solid #09005a;
   border-radius: 100%;
   padding: 0.4rem;
@@ -45,53 +65,57 @@
   align-items: center;
   cursor: pointer;
   background-color: #f2f2f2;
+  transition: all 0.2s ease;
 }
 
-.home-slider-left-details {
-  display: flex;
-  flex-direction: column;
-  margin: 0 2rem;
-  gap: 2rem;
+.home-slide-icon {
+  color: #09005a;
+  font-size: 18px;
+  transition: all 0.2s ease;
 }
 
-.home-slider-left-details h1 {
-  font-size: 2.6rem;
-  color: #3e42c1;
+.home-slide-social-icon:hover {
+  background-color: #09005a;
 }
 
-.home-slider-left-details p {
-  font-size: 1.4rem;
-  color: #3e42c1;
+.home-slide-social-icon:hover .home-slide-icon {
+  color: white;
 }
 
-.home-slider-image-container {
-  width: 400px;
+.home-slide-image-container {
+  /* flex: 0 0 250px; */
+  position: relative;
 }
 
-.home-slider-image {
-  max-width: 100%;
-  max-height: 100%;
+.home-slide-image {
+  display: block;
   object-fit: cover;
+  width: 500px;
+  height: 250px;
   box-shadow: black;
 }
 
 .home-buttons {
+  margin: 1rem 0 0 0;
   display: flex;
   gap: 2rem;
-  position: absolute;
-  left: 80px;
-  top: 220px;
 }
 
 .home-button {
   border: none;
   outline: none;
-  font-size: 1.1rem;
   padding: 1rem 1.6rem;
   cursor: pointer;
   color: #000080;
   font-size: 1.4rem;
   font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.home-button:hover {
+  transform: scale(0.9);
 }
 
 .home-getstarted-button {
@@ -100,6 +124,7 @@
 
 .home-knowmore-button {
   border: 2px solid #9bd6e7;
+  background-color: white;
 }
 
 .home-hr {
@@ -112,7 +137,7 @@
   justify-content: center;
 }
 
-.home-hr-icon {
+.home-hr-icon-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,4 +145,78 @@
   border-radius: 100%;
   border-color: #040146;
   padding: 0.6rem;
+}
+
+.home-hr-icon {
+  font-size: 60px;
+  color: rgb(95, 209, 222);
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 480px) {
+  .home-main {
+    padding: 3rem 3rem 1rem 3rem;
+    flex-direction: column-reverse;
+  }
+
+  .home-slide {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .home-slide-left {
+    margin: 0 0 1rem 0;
+    gap: 1rem;
+  }
+
+  .home-slide-left h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-slide-left p {
+    font-size: 0.9rem;
+  }
+
+  .home-slide-social-bar {
+    margin-right: 1rem;
+    flex-direction: row;
+    margin: 1rem 0 1rem 0;
+  }
+
+  .home-buttons {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .home-button {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    width: 75%;
+  }
+
+  .home-slide-image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .home-slide-image {
+    width: 250px;
+    height: 200px;
+  }
+
+  .home-slide-icon {
+    font-size: 16px;
+  }
+
+  .home-hr-icon-container {
+    padding: 0.3rem;
+  }
+
+  .home-hr-icon {
+    font-size: 30px;
+    color: rgb(95, 209, 222);
+  }
 }
