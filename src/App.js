@@ -9,6 +9,7 @@ import Courses from './components/Courses';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./App.css";
+import '../src/css/Navbar.css'
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
                     <Route exact path='/' element={<Home/>}/>
                     <Route exact path='/courses' element={<Courses/>}/>
                     <Route exact path='/about' element={<About/>}/>
-                    <Route exact path='/contact' element={<Contact/>}/>
+                    {/* <Route exact path='/contact' element={<Contact/>}/> */}
                 </Routes>
+                <Courses/>
             </div>
         </Router>
     </>

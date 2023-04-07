@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import { NavLink } from "react-router-dom";
 
 // importing CSS
 import "../App.css";
