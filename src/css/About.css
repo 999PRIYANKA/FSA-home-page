@@ -2,7 +2,7 @@
 .about{
     display: flex;
     flex-direction: column;
-    padding: 0.8rem 7%;
+    padding: 8rem 7%;
     line-height: 1.5;
     font-family: 'Work Sans', sans-serif;
     background-color: #f2f2f2;

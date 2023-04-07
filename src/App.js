@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //import all components here
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-import Courses from "./components/courses.js";
 import About from "./components/About";
 import Courses from './components/Courses';
 import Contact from './components/Contact';
