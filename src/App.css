@@ -27,7 +27,24 @@
 .App-link {
   color: #61dafb;
 }
-
+body{
+  color:#2e2e2e;
+}
+span{
+  color: red;
+}
+.nav-pills .nav-links{
+  border-radius: 0;
+  color: #000000;
+  background-color: #dddddd;
+}
+.nav-pills .nav-items:not(:nth-last-child(1)).nav-link{
+  border-right: 1px solid #fff;
+}
+.tab-content{
+  background-color: #f5f6f7;
+  border: 1px solid #dddddd;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

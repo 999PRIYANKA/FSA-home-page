@@ -28,10 +28,10 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Java</h2>
                         <p class="card-text">
-                          Core Java <a href ="Document URL" attributes-list download > Download </a>  <br></br>
-                          Data structure with java <a href ="Document URL" attributes-list download > Download </a> <br></br>
-                          adavanced Java <a href ="Document URL" attributes-list download > Download </a> <br></br>
-                          java develop <a href ="Document URL" attributes-list download > Download </a> <br></br>
+                          Core Java <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                          Data structure with java <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
+                          adavanced Java <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
+                          java develop <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>
                     </div>
@@ -42,7 +42,7 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Data Structures and Algorithms with Python</h2>
                         <p class="card-text">
-                         Data Structures with Python <a href ="Document URL" attributes-list download > Download </a>  
+                         Data Structures with Python <NavLink to ="Document URL" attributes-list download > Download </NavLink>  
                         </p>
                       </div>
                     </div>
@@ -53,8 +53,8 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>C,C++ Programming</h2>
                         <p class="card-text">
-                          C,C++Programming <a href ="Document URL" attributes-list download > Download </a>  <br></br>
-                          Data Structures with C <a href ="Document URL" attributes-list download > Download </a>  <br></br>
+                          C,C++Programming <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                          Data Structures with C <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
                         </p>
                       </div>
                     </div>
@@ -68,8 +68,8 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Full Stack Course</h2>
                         <p class="card-text">
-                          Java Full Stack Course <a href ="Document URL" attributes-list download > Download </a>  <br></br>
-                        Full Stack development Django <a href ="Document URL" attributes-list download > Download </a> <br></br>
+                          Java Full Stack Course <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                        Full Stack development Django <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>
                     </div>
@@ -80,8 +80,8 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Emerging Technology</h2>
                         <p class="card-text">
-                          Machine learning with Python <a href ="Document URL" attributes-list download > Download </a>  <br></br>
-                          Data Science with Python <a href ="Document URL" attributes-list download > Download </a>  <br></br>
+                          Machine learning with Python <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                          Data Science with Python <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
                         </p>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Campus Recruitment</h2>
                         <p class="card-text">
-                        <a href ="Document URL" attributes-list download > Download Syllabus </a>  
+                        <NavLink to ="Document URL" attributes-list download > Download Syllabus </NavLink>  
                         </p>
                       </div>
                     </div>
@@ -109,8 +109,8 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Full Stack Course</h2>
                         <p class="card-text">
-                          Java Full Stack Course <a href ="Document URL" attributes-list download > Download </a>  <br></br>
-                        Full Stack development Django <a href ="Document URL" attributes-list download > Download </a> <br></br>
+                          Java Full Stack Course <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                        Full Stack development Django <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>
                     </div>
@@ -201,10 +201,10 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Java</h2>
                         <p class="card-text">
-                          Core Java <a href ="Document URL" attributes-list download > Download </a>  <br></br>
-                          Data structure with java <a href ="Document URL" attributes-list download > Download </a> <br></br>
-                          adavanced Java <a href ="Document URL" attributes-list download > Download </a> <br></br>
-                          java develop <a href ="Document URL" attributes-list download > Download </a> <br></br>
+                          Core Java <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                          Data structure with java <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
+                          adavanced Java <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
+                          java develop <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>
                     </div>
