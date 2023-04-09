@@ -7,7 +7,7 @@ import "../App.css";
 const Courses = () => {
   return (
     <>
-    <div className="container my-5">
+    <div className="container course">
       <h1>
         <span>Our</span> Courses
       </h1>
@@ -17,14 +17,14 @@ const Courses = () => {
             justify
             variant="pills"
             defaultActiveKey="tab-1"
-            className="mb-1 p-0"
+            className="mb-1 p-0 tabs"
           >
-            <Tab eventKey="tab-1" title="IT Training">
+            <Tab eventKey="tab-1" clasName="tabs" title="IT Training">
               <div className="container">
-                <div className="row my-1">
+                <div className="row">
                   <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="" class="card-img-top" alt="" />
+                      <img src="images/java.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Java</h2>
                         <p class="card-text">
@@ -38,7 +38,7 @@ const Courses = () => {
                   </div>
                   <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="" class="card-img-top" alt="" />
+                      <img src="images/dsa.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Data Structures and Algorithms with Python</h2>
                         <p class="card-text">
@@ -49,7 +49,7 @@ const Courses = () => {
                   </div>
                   <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="" class="card-img-top" alt="" />
+                      <img src="images/cpp.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>C,C++ Programming</h2>
                         <p class="card-text">
@@ -64,7 +64,7 @@ const Courses = () => {
                 <div className="row my-3">
                 <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="" class="card-img-top" alt="" />
+                      <img src="images/fullstack.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Full Stack Course</h2>
                         <p class="card-text">
@@ -76,7 +76,7 @@ const Courses = () => {
                   </div>
                   <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="" class="card-img-top" alt="" />
+                      <img src="images/emergingTch.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Emerging Technology</h2>
                         <p class="card-text">
@@ -88,7 +88,7 @@ const Courses = () => {
                   </div>
                   <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="" class="card-img-top" alt="" />
+                      <img src="images\campusRecruitment.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Campus Recruitment</h2>
                         <p class="card-text">
@@ -100,12 +100,12 @@ const Courses = () => {
                 </div>
               </div>
             </Tab>
-            <Tab eventKey="tab-2" title="Campus Placement">
-            <div className="container">
+            <Tab eventKey="tab-2" clasName="tabs" title="Campus Placement">
+            <div className="container ">
                 <div className="row">
                   <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="" class="card-img-top" alt="" />
+                      <img src="images/fullstack.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Full Stack Course</h2>
                         <p class="card-text">
@@ -192,7 +192,7 @@ const Courses = () => {
                 </div>
               </div>
             </Tab>
-            <Tab eventKey="tab-3" title="Mock Interview">
+            <Tab eventKey="tab-3" clasName="tabs" title="Mock Interview">
             <div className="container">
                 <div className="row">
                   <div className="col">
