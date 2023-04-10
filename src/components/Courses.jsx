@@ -2,13 +2,13 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import { Container, Row, Tabs, Tab } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../App.css";
+import "../css/Courses.css";
 
 const Courses = () => {
   return (
     <>
     <div className="container course">
-      <h1>
+      <h1 className="OC">
         <span>Our</span> Courses
       </h1>
       <Container clasName="py-4">
@@ -23,7 +23,7 @@ const Courses = () => {
               <div className="container">
                 <div className="row">
                   <div className="col">
-                    <div class="card" style={{ width: "18rem" }}>
+                    <div className="card" style={{ width: "18rem" }}>
                       <img src="images/java.png" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Java</h2>
@@ -40,7 +40,7 @@ const Courses = () => {
                     <div class="card" style={{ width: "18rem" }}>
                       <img src="images/dsa.png" class="card-img-top" alt="" />
                       <div class="card-body">
-                        <h2>Data Structures and Algorithms with Python</h2>
+                        <h4>Data Structures and Algorithms with Python</h4>
                         <p class="card-text">
                          Data Structures with Python <NavLink to ="https://www.firststepahead.in/courses/data-structure-with-python.pdf" attributes-list download > Download </NavLink>  
                         </p>
@@ -51,9 +51,9 @@ const Courses = () => {
                     <div class="card" style={{ width: "18rem" }}>
                       <img src="images/cpp.png" class="card-img-top" alt="" />
                       <div class="card-body">
-                        <h2>C,C++ Programming</h2>
+                        <h3>C,C++ Programming</h3>
                         <p class="card-text">
-                          C,C++Programming <NavLink to ="https://www.firststepahead.in/courses/c-cpp-course.pdf" attributes-list download > Download </NavLink>  <br></br>
+                         <br></br> C,C++Programming <NavLink to ="https://www.firststepahead.in/courses/c-cpp-course.pdf" attributes-list download > Download </NavLink>  <br></br>
                           Data Structures with C <NavLink to ="https://www.firststepahead.in/courses/data-structure-with-c.pdf" attributes-list download > Download </NavLink>  <br></br>
                         </p>
                       </div>
@@ -66,9 +66,9 @@ const Courses = () => {
                     <div class="card" style={{ width: "18rem" }}>
                       <img src="images/fullstack.png" class="card-img-top" alt="" />
                       <div class="card-body">
-                        <h2>Full Stack Course</h2>
+                        <h4>Full Stack Course</h4>
                         <p class="card-text">
-                          Java Full Stack Course <NavLink to ="firststepahead.in/courses/java-full-stack-development.pdf" attributes-list download > Download </NavLink>  <br></br>
+                          Java Full Stack Course <br></br><NavLink to ="firststepahead.in/courses/java-full-stack-development.pdf" attributes-list download > Download </NavLink>  <br></br>
                         Full Stack development Django <NavLink to ="https://www.firststepahead.in/courses/full-stack-development-django.pdf" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>
@@ -78,7 +78,7 @@ const Courses = () => {
                     <div class="card" style={{ width: "18rem" }}>
                       <img src="images/emergingTch.png" class="card-img-top" alt="" />
                       <div class="card-body">
-                        <h2>Emerging Technology</h2>
+                        <h4>Emerging Technology</h4>
                         <p class="card-text">
                           Machine learning with Python <NavLink to ="https://www.firststepahead.in/courses/machine-learning-with-python.pdf" attributes-list download > Download </NavLink>  <br></br>
                           Data Science with Python <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
@@ -92,7 +92,7 @@ const Courses = () => {
                       <div class="card-body">
                         <h2>Campus Recruitment</h2>
                         <p class="card-text">
-                        <NavLink to ="https://www.firststepahead.in/courses/campus-training.pdf" attributes-list download > Download Syllabus </NavLink>  
+                        <br></br><NavLink to ="https://www.firststepahead.in/courses/campus-training.pdf" attributes-list download > Download Syllabus </NavLink>  
                         </p>
                       </div>
                     </div>
@@ -105,11 +105,11 @@ const Courses = () => {
                 <div className="row">
                   <div className="col">
                     <div class="card" style={{ width: "18rem" }}>
-                      <img src="images/fullstack.png" class="card-img-top" alt="" />
+                      <img src="" class="card-img-top" alt="" />
                       <div class="card-body">
                         <h2>Full Stack Course</h2>
                         <p class="card-text">
-                          Java Full Stack Course <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
+                          Java Full Stack Course<br></br> <NavLink to ="Document URL" attributes-list download > Download </NavLink>  <br></br>
                         Full Stack development Django <NavLink to ="Document URL" attributes-list download > Download </NavLink> <br></br>
                         </p>
                       </div>

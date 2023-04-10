@@ -30,7 +30,7 @@
 body{
   color:#2e2e2e;
 }
-span{
+/* span{
   color: red;
 }
 .nav-pills .nav-links{
@@ -50,13 +50,13 @@ span{
   top:30%;
   left:3%;
   overflow-y: hidden;
-  /* height: 70vh; */
+  height: 70vh;
 }
 .tabs{
-  /* margin-top: 10% !important; */
+  margin-top: 10% !important;
   position: absolute !important;
   top: 0;
-}
+} */
 
 
 @keyframes App-logo-spin {
