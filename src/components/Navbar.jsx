@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="nav-hr"></div>
           <ul className={showMenu ? `nav-links nav-links-mobile` : `nav-links`}>
             <li>
-              <Link to={"/"}>Home</Link>
+              <Link className="active" to={"/"}>Home</Link>
             </li>
             <li>
               <Link to={"/about"}>About</Link>

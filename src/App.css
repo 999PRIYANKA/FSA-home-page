@@ -50,12 +50,17 @@ span{
   top:30%;
   left:3%;
   overflow-y: hidden;
+  z-index: -1;
   /* height: 70vh; */
 }
 .tabs{
   /* margin-top: 10% !important; */
-  position: absolute !important;
+  position: relative !important;
   top: 0;
+}
+.card-img-top:hover{
+  transition: 1s;
+    scale:1.1 ;
 }
 
 
