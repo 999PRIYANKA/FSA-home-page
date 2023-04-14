@@ -63,11 +63,11 @@
   
 }
 
-.nav-links a:hover,
+/* .nav-links a:hover,
 .nav-links a:active {
   background-color: #040146;
   color: white;
-}
+} */
 
 .nav-right {
   display: flex;
