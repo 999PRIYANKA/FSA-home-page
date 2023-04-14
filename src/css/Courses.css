@@ -1,3 +1,4 @@
+
  
  .page2{
   position: relative;
@@ -16,6 +17,12 @@
     box-shadow:0.5px 2px 4px 2px grey;
     margin-bottom: 5%;
   }
+body{
+    color:#2e2e2e;
+  }
+  span{
+    color: red;
+  }
   .nav-pills .nav-links{
     border-radius: 0;
     color: #000000;
@@ -24,6 +31,7 @@
   .nav-pills .nav-items:not(:nth-last-child(1)).nav-link{
     border-right: 1px solid #fff;
   }
+
   .course{
     position: relative;
     top:18%;
@@ -50,4 +58,27 @@
       transform: rotate(360deg);
     }
   }
+  .tab-content{
+    background-color: #f5f6f7;
+    border: 1px solid #dddddd;
+  }
+  .course{
+    position: absolute;
+    top:30%;
+    left:3%;
+    overflow-y: hidden;
+    z-index: -1;
+    /* height: 70vh; */
+  }
+  .tabs{
+    /* margin-top: 10% !important; */
+    position: relative !important;
+    top: 0;
+  }
+  .card-img-top:hover{
+    transition: 1s;
+      scale:1.1 ;
+  }
+  
+
   

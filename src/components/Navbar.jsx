@@ -1,13 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../App.css";
-import { Link } from "react-router-dom";
-
+import { Link,useLocation } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 // importing CSS
 import "../css/Navbar.css";
+import { useEffect } from "react";
 
 const Navbar = () => {
+  const location = useLocation();
+  useEffect(()=>{
+
+  },[location])
   const [showMenu, setShowMenu] = useState(false);
 
   return (
@@ -24,16 +28,16 @@ const Navbar = () => {
           <div className="nav-hr"></div>
           <ul className={showMenu ? `nav-links nav-links-mobile` : `nav-links`}>
             <li>
-              <Link to={"/"}>Home</Link>
+              <Link className={`nav-link ${location.pathname==="/"?"active":""}`} to={"/"}>Home</Link>
             </li>
             <li>
-              <Link to={"/about"}>About</Link>
+              <Link className={`nav-link ${location.pathname==="/about"?"active":""}`} to={"/about"}>About</Link>
             </li>
             <li>
-              <Link to={"/courses"}>Our Courses</Link>
+              <Link className={`nav-link ${location.pathname==="/courses"?"active":""}`} to={"/courses"}>Our Courses</Link>
             </li>
             <li>
-              <Link to={'/contact'}>Contact</Link>
+              <Link className={`nav-link ${location.pathname==="/contact"?"active":""}`} to={'/contact'}>Contact</Link>
             </li>
           </ul>
         </div>
