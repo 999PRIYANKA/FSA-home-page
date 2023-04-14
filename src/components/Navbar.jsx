@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../App.css";
 import { Link,useLocation } from "react-router-dom";
-
 import { RxHamburgerMenu } from "react-icons/rx";
 
 // importing CSS
