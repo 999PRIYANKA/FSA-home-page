@@ -12,7 +12,7 @@ import { ImFacebook, ImTwitter, ImYoutube } from "react-icons/im";
 import { BsInstagram } from "react-icons/bs";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-
+import Navbar from "./Header/Navbar";
 const settings = {
   dots: false,
   arrows: false,
@@ -26,6 +26,8 @@ const settings = {
 
 const Home = () => {
   return (
+    <>
+    <Navbar />
     <div className="home">
       <div className="home-main">
         <Socialbar />
@@ -72,6 +74,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

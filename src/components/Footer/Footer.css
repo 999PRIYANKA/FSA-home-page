@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    padding: 2rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+}
+
+.footer-middle, .footer-right{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer-middle{
+    padding-left: 6.5rem;
+}
+.footer-middle li{
+    list-style: none;
+}
+
+.footer-middle ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer-left{
+    width:33%;
+}
+.footer-logo{
+    width: 200px;
+    height: 100px;
+}
+.footer-left p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.copyright-section{
+    text-align: center;
+    margin-bottom: 1rem;
+}
