@@ -1,117 +1,181 @@
 import React from "react";
-import Slider from "react-slick";
 
 // importing CSS
 import "../App.css";
 import "../css/Home.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Header from "./Header/Header";
 
 // importing icons
-import { ImFacebook, ImTwitter, ImYoutube } from "react-icons/im";
-import { BsInstagram } from "react-icons/bs";
-import { FaGraduationCap } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import Navbar from "./Header/Navbar";
-const settings = {
-  dots: false,
-  arrows: false,
-  infinite: true,
-  speed: 500,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  // autoplay: true,
-  autoplaySpeed: 3000,
-};
+import { GoPlay } from "react-icons/go";
+import {
+    IoMdArrowDropright,
+    IoLogoHtml5,
+    IoLogoCss3,
+    IoLogoJavascript,
+    IoLogoPython,
+    IoLogoAngular,
+    IoLogoNodejs,
+} from "react-icons/io";
+import { FaReact, FaVuejs, FaCrown, FaCertificate } from "react-icons/fa";
+import { AiFillClockCircle } from "react-icons/ai";
 
 const Home = () => {
-  return (
-    <>
-    <Navbar />
-    <div className="home">
-      <div className="home-main">
-        <Socialbar />
-        <div className="home-main-section">
-          <Slider {...settings}>
-            <Slide
-              title="Campus recruitment training"
-              desc="It's 2023. Deliver the learning experience your team deserves. And
-            have a good time doing it."
-              img="./images/recruitment-training.png"
-            />
-            <Slide
-              title="IT training"
-              desc="It's 2023. Deliver the learning experience your team deserves. And
-            have a good time doing it."
-              img="./images/it-training.png"
-            />
-            <Slide
-              title="Soft Skill Development Training"
-              desc="It's 2023. Deliver the learning experience your team deserves. And
-            have a good time doing it."
-              img="./images/soft-skills.png"
-            />
-            <Slide
-              title="IT Project"
-              desc="It's 2023. Deliver the learning experience your team deserves. And
-            have a good time doing it."
-              img="./images/mock-interview.png"
-            />
-          </Slider>
-          <div className="home-buttons">
-            <button className="home-button home-getstarted-button">
-              Get Started
-            </button>
-            <button className="home-button home-knowmore-button">
-              Know More
-            </button>
-          </div>
-        </div>
-      </div>
-      <div className="home-hr">
-        <div className="home-hr-icon-container">
-          <FaGraduationCap className="home-hr-icon" />
-        </div>
-      </div>
-    </div>
-    </>
-  );
+    return (
+        <>
+            <div className="home-page">
+                <Header>
+                    <div className="header__container">
+                        <div className="home__widget">
+                            {/* <a href="/"> */}
+                            <GoPlay className="home__widget--icon" />
+                            <span className="home__widget--span">
+                                on-demand video training
+                            </span>
+                            {/* </a> */}
+                        </div>
+                        <h1 className="home__heading">
+                            Education Opens up the Mind
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Ut elit tellus, luctus nec ullamcorper mattis,
+                            pulvinar dapibus leo.
+                        </p>
+                        <div className="home__btns">
+                            <a href="#" className="home__btn1">
+                                Start Course
+                            </a>
+                            <a href="#" className="home__btn2">
+                                <IoMdArrowDropright />
+                                All Courses
+                            </a>
+                        </div>
+                    </div>
+                </Header>
+                <section className="home__tech-section">
+                    <div className="home__tech-section--left">
+                        <h2>Technologies You Will Learn</h2>
+                    </div>
+                    <div className="home__tech-section--right">
+                        <div className="home__tech-section--right--icons">
+                            <IoLogoHtml5 />
+                            <IoLogoCss3 />
+                            <IoLogoJavascript />
+                            <IoLogoNodejs />
+
+                            <IoLogoPython />
+                            <IoLogoAngular />
+                            <FaReact />
+                            <FaVuejs />
+                        </div>
+                    </div>
+                </section>
+                <section className="home__hero-section">
+                    <div className="home__hero">
+                        <div className="home__hero-section--left">
+                            <div className="home__hero-section--left--box">
+                                <h4>Experience</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Asperiores dolor
+                                    repudiandae eligendi at veniam excepturi,
+                                    consequatur consectetur quidem, mollitia
+                                    recusand
+                                </p>
+                            </div>
+                            <div className="home__hero-section--left--box">
+                                <h4>Experience</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Asperiores dolor
+                                    repudiandae eligendi at veniam excepturi,
+                                    consequatur consectetur quidem, mollitia
+                                    recusand
+                                </p>
+                            </div>
+                            <div className="home__hero-section--left--box">
+                                <h4>Experience</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur,
+                                    adipisicing elit. Asperiores dolor
+                                    repudiandae eligendi at veniam excepturi,
+                                    consequatur consectetur quidem, mollitia
+                                    recusand
+                                </p>
+                            </div>
+                        </div>
+                        <div className="home__hero-section--right">
+                            <h4>Study At Your Own Pace</h4>
+                            <h6>
+                                Boost Your Career by Learning Skills in High
+                                Demand
+                            </h6>
+                            <a href="#" className="home__hero-section--btn2">
+                                <IoMdArrowDropright />
+                                get started
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section className="home__whyus-section">
+                    <div className="home__whyus-section--left">
+                        <h6>Features of Our Courses</h6>
+                        <h2>Why Choose Us?</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsum sapiente fugiat recusandae, aperiam
+                            plaquam laudantium necessitatibus perferendis
+                        </p>
+                    </div>
+                    <div className="home__whyus-section--right">
+                        {/* Box 1 */}
+                        <div className="home__whyus-section--right--box">
+                            <div className="home__whyus-section--right--box--icon">
+                                <FaCrown />
+                            </div>
+                            <div className="home__whyus-section--right--box--content">
+                                <h4>Best Industry Leaders </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ut elit tellus, luctus nec
+                                    ullamcorper.
+                                </p>
+                            </div>
+                        </div>
+                        {/* Box 2 */}
+                        <div className="home__whyus-section--right--box">
+                            <div className="home__whyus-section--right--box--icon">
+                                <AiFillClockCircle />
+                            </div>
+                            <div className="home__whyus-section--right--box--content">
+                                <h4>Learn Online at Your Own Pace </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ut elit tellus, luctus nec
+                                    ullamcorper.
+                                </p>
+                            </div>
+                        </div>
+                        {/* Box 3 */}
+                        <div className="home__whyus-section--right--box">
+                            <div className="home__whyus-section--right--box--icon">
+                                <FaCertificate />
+                            </div>
+                            <div className="home__whyus-section--right--box--content">
+                                <h4>Professional Certification </h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. Ut elit tellus, luctus nec
+                                    ullamcorper.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>ayaansh</footer>
+            </div>
+        </>
+    );
 };
 
 export default Home;
-
-const Slide = ({ title, desc, img }) => {
-  return (
-    <div className="home-slide">
-      <div className="home-slide-left">
-        <h1>{title}</h1>
-        <p>{desc}</p>
-      </div>
-      <div className="home-slide-image-container">
-        <img className="home-slide-image" src={img} alt="" />
-      </div>
-    </div>
-  );
-};
-
-const Socialbar = () => {
-  return (
-    <div className="home-slide-social-bar">
-      <div className="home-slide-social-icon">
-        <ImFacebook className="home-slide-icon" />
-      </div>
-      <div className="home-slide-social-icon">
-        <ImTwitter className="home-slide-icon" />
-      </div>
-      <div className="home-slide-social-icon">
-        <BsInstagram className="home-slide-icon" />
-      </div>
-      <div className="home-slide-social-icon">
-        <ImYoutube className="home-slide-icon" />
-      </div>
-      <div className="home-slide-social-icon">
-        <FaLinkedinIn className="home-slide-icon" />
-      </div>
-    </div>
-  );
-};
