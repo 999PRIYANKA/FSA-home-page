@@ -1,0 +1,41 @@
+
+body{
+  color:#2e2e2e;
+}
+/* span{
+  color: red;
+}
+.nav-pills .nav-links{
+  border-radius: 0;
+  color: #000000;
+  background-color: #dddddd;
+}
+.nav-pills .nav-items:not(:nth-last-child(1)).nav-link{
+  border-right: 1px solid #fff;
+}
+.tab-content{
+  background-color: #f5f6f7;
+  border: 1px solid #dddddd;
+}
+.course{
+  position: absolute;
+  top:30%;
+  left:3%;
+  overflow-y: hidden;
+  height: 70vh;
+}
+.tabs{
+  margin-top: 10% !important;
+  position: absolute !important;
+  top: 0;
+} */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

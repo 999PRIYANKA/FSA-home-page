@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import CoursesNew from "./components/CoursesNew";
+import Courses from "./components/Courses";
 import About from "./components/About";
 import Contact from './components/Contact';
 import "slick-carousel/slick/slick.css";

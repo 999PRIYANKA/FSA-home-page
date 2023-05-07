@@ -57,7 +57,7 @@
 
 .contact__content-address-field p{
     display: inline-block;
-    margin-left: calc("50px + 0.5rem");
+    /* margin-left: calc("50px"); */
     position: relative;
     break-after: column;
     word-break: break-all;
