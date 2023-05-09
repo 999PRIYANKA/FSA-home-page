@@ -17,13 +17,15 @@ import {
     IoLogoNodejs,
 } from "react-icons/io";
 import { FaReact, FaVuejs, FaCrown, FaCertificate } from "react-icons/fa";
-import { AiFillClockCircle } from "react-icons/ai";
+import { AiFillClockCircle, AiFillStar } from "react-icons/ai";
+import { BsFacebook, BsTwitter, BsYoutube, BsPinterest } from "react-icons/bs";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
     return (
         <>
             <div className="home-page">
-                <Header>
+                <Header image="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/02/bg-01-free-img.jpg">
                     <div className="header__container">
                         <div className="home__widget">
                             {/* <a href="/"> */}
@@ -52,6 +54,7 @@ const Home = () => {
                         </div>
                     </div>
                 </Header>
+                {/* Tech Section */}
                 <section className="home__tech-section">
                     <div className="home__tech-section--left">
                         <h2>Technologies You Will Learn</h2>
@@ -70,6 +73,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                {/* Hero Section */}
                 <section className="home__hero-section">
                     <div className="home__hero">
                         <div className="home__hero-section--left">
@@ -117,6 +121,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                {/* Why us Section */}
                 <section className="home__whyus-section">
                     <div className="home__whyus-section--left">
                         <h6>Features of Our Courses</h6>
@@ -172,7 +177,147 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <footer>ayaansh</footer>
+                {/* Testimonials */}
+                <section className="home__testimonial-section">
+                    <div>
+                        <div className="home__testimonial-section--left">
+                            <h6>Testimonials</h6>
+                            <h2>Trusted by Thousand of Students and Tutors</h2>
+                        </div>
+                        <div className="home__testimonial-section--right">
+                            <span>4.8</span>
+                            <div>
+                                <div className="home__testimonial-section--right--stars">
+                                    <AiFillStar />
+                                    <AiFillStar />
+                                    <AiFillStar />
+                                    <AiFillStar />
+                                    <AiFillStar />
+                                </div>
+                                <p>2,934 Ratings</p>
+                                <p>Google Reviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Cards */}
+                    <div className="home__testimonial-cards">
+                        <div className="home__testimonial-card">
+                            <div className="home__testimonial-card--content">
+                                <img
+                                    src="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/10/online-programming-course-review-01.jpg"
+                                    alt=""
+                                />
+                                <p>
+                                    “Massa amet, at dolor tellus pellentesque
+                                    aenean in eget massa tincidunt habitasse
+                                    volutpat adipiscing sed id sit auctor eu
+                                    vivamus nulla.”
+                                </p>
+                                <div className="home__testimonial-card--info">
+                                    <h6>Harry Potter</h6>
+                                    <div className="home__testimonial-section--right--stars">
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="home__testimonial-card">
+                            <div className="home__testimonial-card--content">
+                                <img
+                                    src="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/10/online-programming-course-review-01.jpg"
+                                    alt=""
+                                />
+                                <p>
+                                    “Massa amet, at dolor tellus pellentesque
+                                    aenean in eget massa tincidunt habitasse
+                                    volutpat adipiscing sed id sit auctor eu
+                                    vivamus nulla.”
+                                </p>
+                                <div className="home__testimonial-card--info">
+                                    <h6>Harry Potter</h6>
+                                    <div className="home__testimonial-section--right--stars">
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="home__testimonial-card">
+                            <div className="home__testimonial-card--content">
+                                <img
+                                    src="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/10/online-programming-course-review-01.jpg"
+                                    alt=""
+                                />
+                                <p>
+                                    “Massa amet, at dolor tellus pellentesque
+                                    aenean in eget massa tincidunt habitasse
+                                    volutpat adipiscing sed id sit auctor eu
+                                    vivamus nulla.”
+                                </p>
+                                <div className="home__testimonial-card--info">
+                                    <h6>Harry Potter</h6>
+                                    <div className="home__testimonial-section--right--stars">
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="home__testimonial-card">
+                            <div className="home__testimonial-card--content">
+                                <img
+                                    src="https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/10/online-programming-course-review-01.jpg"
+                                    alt=""
+                                />
+                                <p>
+                                    “Massa amet, at dolor tellus pellentesque
+                                    aenean in eget massa tincidunt habitasse
+                                    volutpat adipiscing sed id sit auctor eu
+                                    vivamus nulla.”
+                                </p>
+                                <div className="home__testimonial-card--info">
+                                    <h6>Harry Potter</h6>
+                                    <div className="home__testimonial-section--right--stars">
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                        <AiFillStar />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                {/* Join our community Section */}
+                <section className="home__join_comm-section">
+                    <div>
+                        <h2>Join our Community</h2>
+                        <p>
+                            Enter your email address to register to our
+                            newsletter subscription delivered on regular basis!
+                        </p>
+                        <input
+                            type="email"
+                            name=""
+                            id=""
+                            placeholder="Enter your email"
+                        />
+                        <a href="#">Subscribe</a>
+                    </div>
+                </section>
+                <Footer />
             </div>
         </>
     );

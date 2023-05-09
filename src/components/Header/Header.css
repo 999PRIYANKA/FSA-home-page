@@ -3,6 +3,9 @@
     background-color: #007691d2;
     /* opacity: .15; */
     border-bottom-right-radius: 8rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .header::before{
@@ -15,7 +18,6 @@
     border-bottom-right-radius: 8rem;
     background-size: cover;
     height: 100%;
-    background-image: url(https://websitedemos.net/online-courses-02/wp-content/uploads/sites/542/2020/02/bg-08-free-img.jpg);
     z-index: -1;
 }
 

@@ -1,42 +1,75 @@
-.footer{
-    display: flex;
-    padding: 2rem;
-    padding-left: 5rem;
-    font-size: 1.2rem;
+/* -------- Footer Section -------- */
+
+.home__footer {
+    background-color: white;
 }
 
-.footer-middle, .footer-right{
-    width: 33%;
+.home__footer--top {
+    padding: 30px 8rem;
+    display: flex;
+}
+
+.home__footer--top--social {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 50%;
+    padding-right: 100px;
+}
+
+.home__footer--top--social img {
+    width: 30%;
+}
+
+.home__footer--top--social--icons {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    transition: all 0.25s;
+}
+
+.home__footer--top--courses {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-}
-.footer-middle{
-    padding-left: 6.5rem;
-}
-.footer-middle li{
-    list-style: none;
+    flex-basis: 25%;
 }
 
-.footer-middle ul{
+.home__footer--top--courses h2 {
+    font-size: 1.4rem;
+}
+
+.home__footer--top--courses ul {
+    list-style: none;
+    line-height: 25px;
+}
+
+.home__footer--top--contact {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-}
-.footer-left{
-    width:33%;
-}
-.footer-logo{
-    width: 200px;
-    height: 100px;
-}
-.footer-left p{
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-top: 1rem;
+    gap: 1rem;
+    flex-basis: 25%;
+    padding-left: 80px;
 }
 
-.copyright-section{
-    text-align: center;
-    margin-bottom: 1rem;
+.home__footer--top--contact h2 {
+    font-size: 1.4rem;
+}
+
+.home__footer--top--contact > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hr {
+    height: 1px;
+    width: 100%;
+    background-color: #e4e4e4;
+}
+
+.home__footer--bottom > div {
+    display: flex;
+    padding: 30px 8rem;
+    justify-content: space-between;
 }
