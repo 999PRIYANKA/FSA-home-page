@@ -54,7 +54,7 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <button className="button">Start Learning</button>
+            <a href="https://www.firststepahead.in/login.html" className="btn-login">Login</a>
           </li>
         </ul>
       </div>

@@ -37,14 +37,13 @@
     color: #ff9635;
 }
 
-.button{
+.btn-login{
     background-color: #ff9635;
     font-weight: 600;
     font-size: 1.03rem;
     text-transform: uppercase;
-    padding: 1rem 1rem;
+    padding: 1rem 30px;
     border: none;
     border-radius: 3rem;
     color: white;
 }
-
